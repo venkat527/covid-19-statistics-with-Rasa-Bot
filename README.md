@@ -33,7 +33,7 @@ This bot will give covid-19 statistics like covid status confirmed,Recovered,dea
 
 
 1. SpacyNLP
-   spacy model will extract names,cities,Locations 
+   spacy model will help to extract Entity's like names,cities,Locations and it will support multi languages.
 2. Duckling server 
    Duckling is Haskel Library introduced by wit.ai
    Duckling is also used to extract Entities, Date,Time from text
