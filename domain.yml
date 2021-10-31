@@ -32,7 +32,7 @@ entities:
  
 responses:
   utter_greet:
-  - text: "Hey! How are you?"
+  - text: "Hey welcome to covid-19 India History Statistis, you can get information like confirmed and recovered cases beteween 2020-3-10 to 2021-10-10"
 
   utter_cheer_up:
   - text: "Here is something to cheer you up:"

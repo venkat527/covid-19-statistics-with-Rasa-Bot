@@ -56,12 +56,12 @@ class ActionCovidStatus(Action):
                  total = data["summary"]["total"]
                  for region in data["regional"]:
                       if region["loc"] == state:
-                          message = "Now Showing Cases For --> " + state.title() + "\n" + " \n" + "Confirmed: " + str(region["totalConfirmed"])             
+                          message = "Now Showing covid-19 india statistics For --> " + state.title() + "\n" + " \n" + "Confirmed: " + str(region["totalConfirmed"] + " \n" + "Recovered: " + str(region["discharged"] + " \n" + "deaths: " + str(region["deaths"])             
              elif data["day"] == str(rday): 
                  total = data["summary"]["total"]
                  for region in data["regional"]:
                       if region["loc"] == state:
-                          message = "Now Showing Cases For --> " + state.title() + "\n" + " \n" + "Confirmed: " + str(region["totalConfirmed"])
+                          message = "Now Showing covid-19 india statistics For --> " + state.title() + "\n" + " \n" + "Confirmed: " + str(region["totalConfirmed"] + " \n" + "Recovered: " + str(region["discharged"] + " \n" + "deaths: " + str(region["deaths"])
                           
                           
              else:
