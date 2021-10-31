@@ -1,5 +1,5 @@
 # covid-19-statistics-with-Rasa-Bot
-This bot will give covid-19 statistics like covid status in india using covid-19 india stats root history [api](https://api.rootnet.in/covid19-in/stats/history)
+This bot will give covid-19 statistics like covid status confirmed,Recovered,deaths, discharged cases in india state wise  using covid-19 india stats root history [api](https://api.rootnet.in/covid19-in/stats/history)
 ## How To Run Bot
 #### Prerequisite:
 * rasa
@@ -46,7 +46,7 @@ we have three options to dockerize bot application
 #### My Road Blocks:
 
 * i have faced machine compatibility issues while working with rasa i.e tensorflow lack of machine that's my bad.
-* unable to start duckling server in windows, this duckling library is used to improve model accuracy.
+* unable to start duckling server in windows, this duckling library is used to get date, time, entity's 
 
 
 
