@@ -1,0 +1,115 @@
+version: "2.0"
+
+nlu:
+- intent: covid_status
+  examples: |
+    - Hey, what's the [current](date) [confirmed](corono_status) cases in Delhi etc?
+    - Hey, what's the [current](date) [confirmed](corono_status) cases in Delhi,Maharastra etc?
+    - hey, what's the [current](date) [confirmed](corono_status) cases in Haryana etc?
+    - Hey, what's the total count of [confirmed](corono_status) cases in Delhi,Maharastra altogether?
+    - Hey, what's the total count of [confirmed](corono_status) cases in Punjab,Kerala altogether?
+    - Hey, what's the [current](date) [death](corono_status) cases in Karnataka etc?
+    - Hey, what's the [current](date) [death](corono_status) cases in Kerala etc?
+    - Hey, what's the [confirmed](corono_status) cases in Delhi on March 21 ?
+    - Hey, what's the [confirmed](corono_status) cases in Haryana on July 20 ?
+    - Hey, get me [confirmed](corono_status) cases in Ladakh
+    - Hey, what's the [current](date) [recovered](corono_status) cases in Punjab etc?
+    - get me [current](date) death cases in Karnataka
+    - get me [confirmed](corono_status)) cases in Uttar Pradesh on 2020-6-25
+    - Tell me [Recovered](corono_status) cases in Jammu And Kashmir on 2020-march-22
+    - tell me [death](corono_status) cases in Telengana on 2021-02-10
+    - give me [current](date) [recovered](corono_status) cases in Tamil Nadu 
+    - give me [current](date) [death](corono_status) cases in Rajasthan
+    - give me [current](date) [confirmed](corono_status) cases in Haryana
+    - get me [death](corono_status) cases in Delhi on 2021-03-23
+
+
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - good afternoon
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
