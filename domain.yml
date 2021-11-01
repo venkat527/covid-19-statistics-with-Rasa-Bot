@@ -50,8 +50,7 @@ responses:
   utter_iamabot:
   - text: "I am a bot, powered by Rasa."
 
-  utter_fallback_default_msg:
-  - text: "I am not able to understand. Can you rephrase the question or ask different questions"
+  
 
 
 session_config:

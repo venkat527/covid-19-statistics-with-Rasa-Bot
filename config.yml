@@ -21,7 +21,4 @@ policies:
     max_history: 5
     epochs: 100
   - name: MappingPolicy
-  - name: FallbackPolicy
-    fallback_action_name: 'utter_fallback_default_msg'
-    nlu_threshold: 0.7
-    core_threshold: 0.7
+  

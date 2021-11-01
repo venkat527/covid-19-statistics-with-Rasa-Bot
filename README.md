@@ -1,5 +1,8 @@
 # covid-19-statistics-with-Rasa-Bot
 This bot will give covid-19 statistics like covid status confirmed,Recovered,deaths, discharged cases in india state wise  using covid-19 india stats root history [api](https://api.rootnet.in/covid19-in/stats/history)
+
+![ COVID-19 Statistics Demo](Rasa bot demo.gif)
+
 ## How To Run Bot
 #### Prerequisite:
 * rasa
@@ -17,17 +20,19 @@ This bot will give covid-19 statistics like covid status confirmed,Recovered,dea
 
 ### Steps to Run with Flask App
 1. open CMD and navigate to actions folder and run flask server 
-2. open CMD in project path and enter below command to run Action Server
+2. open another CMD in project path and enter below command to run Action Server
 
 **rasa run actions**
+3.  open another CMD in project path and enter below command to run Rasa Server
+ rasa run -m models --enable-api --cors "*" --debug
 
-3. open flask url in browser then you are able to chat with Bot
+4. open flask url in browser then you are able to chat with Bot
 
 #### How To chat with only NLU Model 
  * By using rasa shell nlu command we can chat with nlu model
  * NLU Model will give response as Entity's, slots and intent rankings
  * Based on intent rankings core model will select highest threshold value intent 
- * finally Core model will give response to the user question based on utter  
+ * Finally Core model will give response to the user question based on utter  
 
 ### Justifications And Findings
 
@@ -45,7 +50,7 @@ we have three options to dockerize bot application
 
 #### My Road Blocks:
 
-* i have faced machine compatibility issues while working with rasa i.e tensorflow lack of machine that's my bad.
+* i have faced machine compatibility issues while working with rasa lack of machine that's my bad.
 * unable to start duckling server in windows, this duckling library is used to get date, time, entity's 
 
 
