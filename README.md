@@ -19,20 +19,24 @@ This bot will give covid-19 statistics like covid status confirmed,Recovered,dea
 **rasa shell**
 
 ### Steps to Run with Flask App
-1. open CMD and navigate to actions folder and run flask server 
-2. open another CMD in project path and enter below command to run Action Server
 
-**rasa run actions**
-3.  open another CMD in project path and enter below command to run Rasa Server
+1.  open CMD in project path and enter below command to run Action Server
+
+   **rasa run actions**
+
+2.  open another CMD in project path and enter below command to run Rasa Server
  rasa run -m models --enable-api --cors "*" --debug
 
-4. open flask url in browser then you are able to chat with Bot
+3. open another CMD and navigate to actions folder and run flask server 
+ python app.py
+
+4. open flask [url](localhost:5000) in browser then you are able to chat with Bot
 
 #### How To chat with only NLU Model 
  * By using rasa shell nlu command we can chat with nlu model
  * NLU Model will give response as Entity's, slots and intent rankings
  * Based on intent rankings core model will select highest threshold value intent 
- * Finally Core model will give response to the user question based on utter  
+ * Finally Core model will give response to the user questions 
 
 ### Justifications And Findings
 
