@@ -1,7 +1,7 @@
 # covid-19-statistics-with-Rasa-Bot
 This bot will give covid-19 statistics like covid status confirmed,Recovered,deaths, discharged cases in india state wise  using covid-19 india stats root history [api](https://api.rootnet.in/covid19-in/stats/history)
 
-![ COVID-19 Statistics Demo](Rasa bot demo.gif)
+![ COVID-19 Statistics Demo](Rasa_bot_demo.gif)
 
 ## How To Run Bot
 #### Prerequisite:
